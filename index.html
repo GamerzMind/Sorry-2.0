@@ -170,7 +170,7 @@
 
   <!-- 3. Sorry meter -->
   <section class="screen" id="s3">
-    <div class="emoji" id="meterEmoji">😐</div>
+    <div class="emoji" id="meterEmoji">😶</div>
     <h2>How sorry am I?</h2>
     <p>Drag it and find out.</p>
     <div class="meter-label" id="meterLabel">a little…</div>
@@ -415,12 +415,12 @@ function typeLetter() {
 
 /* sorry meter */
 const levels = [
-  [0, "😐", "a little…"],
-  [20, "🙂", "okay, a bit more"],
-  [40, "😬", "fairly sorry"],
-  [60, "😅", "genuinely sorry"],
-  [80, "🫡", "properly sorry"],
-  [97, "💯", "off the charts, fine"],
+  [0, "😶", "a little…"],
+  [20, "😕", "okay, a bit more"],
+  [40, "😔", "fairly sorry"],
+  [60, "🥹", "genuinely sorry"],
+  [80, "🙇‍♂️", "properly sorry"],
+  [97, "💐", "off the charts, fine"],
 ];
 $("#meter").addEventListener("input", (e) => {
   const v = +e.target.value;
